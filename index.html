@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Source+Serif+4:opsz@8..60&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <title>QUICK WEBSITE</title>
+</head>
+<body>
+<section class="header">
+
+<nav>
+  <a href="index.html"><img src="images/3-removebg-preview.png"></a>
+  <div class="nav-links" id="navLinks">
+    <i class="fa fa-times" onclick="hideMenu()"></i>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="MEMBERS.html">MEMBERS</a></li>
+        <li><a href="STUDY.html">STUDY</a></li>
+        <li><a href="SEMINAR.html">SEMINAR</a></li>
+        <li><a href="FESTIVAL.html">FESTIVAL</a></li>
+      </ul>
+  </div>
+  <i class="fa fa-bars" onclick="showMenu()"></i>
+</nav>
+<div class="text-box">
+  <h1>QUantum Information Club at Korea university</h1>
+  <p>supported by Korea University quantum workforce</p>
+  <a href="" class="hero-btn">Visit Us To know More</a>
+</div>
+</section>
+
+
+<!------------News------------->
+
+<section class="News">
+  <h1>NEWS</h1>
+  <p>QUICK Fall semester News</p>
+
+  <div class="row">
+    <div class="News-col">
+      <h3>New Members</h3>
+      <p>We have completed recruiting new members for the first fall semester. Welcome all new members!</p>
+    </div>
+    <div class="News-col">
+      <h3>BQIT</h3>
+      <p>We filmed lecture videos and made exercise problems for the BQIT study.</p>
+    </div>
+    <div class="News-col">
+      <h3>2023 IBM Qiskit Fall Fest</h3>
+      <p>In November, we will host the IBM Qiskit Fall Fest. Join the challenge and win the IBM Swag!</p>
+    </div>
+  </div>
+</section>
+
+
+<!---------LOGOS
+<section class="LOGOS">
+<a><img src="images/QUICK_LOGO.jpg"><img src="images/KU_LOGO.jpg"><img src="images/QW_LOGO.png"></a>
+</section>------------>
+
+<!--<a href="index.html"><img src="images/QUICK_LOGO2.jpg"></a>
+<a href="index.html"><img src="images/KU.png"></a>
+<a href="index.html"><img src="images/QW_LOGO.png"></a>-->
+
+<!------Supported
+<section class="Supported">
+  <h1>Supported</h1>
+  <p>We are supported by Korea University Quantumworkforce.</p>
+
+  <div class="row">
+    <div class="Supported-col">
+      <img src="images/QW_LOGO.png">
+    </div>
+  </div>
+</section>
+----->
+
+<!---
+<section class="LOGOS">
+  <br><br>
+  <div class="row1">
+    <div class="LOGOS-col">
+      <a href="index.html"><img src="images/QUICK_LOGO.jpg"></a>
+    </div>
+    <div class="LOGOS-col">
+      <a href="index.html"><img src="images/KU.png"></a>
+    </div>
+    <div class="LOGOS-col">
+      <a href="index.html"><img src="images/QW_LOGO.png"></a>
+    </div>
+  </div>
+</section>
+-->
+
+
+
+
+<!-----------JavaScript for Toggle Menu----------------->
+<script>
+
+  var navLinks = document.getElementById("navLinks");
+
+  function showMenu(){
+    navLinks.style.right = "0";
+  }
+  function hideMenu(){
+    navLinks.style.right = "-200px";
+  }
+
+</script>
+
+</body>
+</html>

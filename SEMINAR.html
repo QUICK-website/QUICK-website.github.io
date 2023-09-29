@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Source+Serif+4:opsz@8..60&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <title>QUICK WEBSITE</title>
+</head>
+<body>
+<section class="sub2-header">
+  <nav>
+    <a href="index.html"><img src="images/3-removebg-preview.png"></a>
+    <div class="nav-links" id="navLinks">
+      <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="MEMBERS.html">MEMBERS</a></li>
+          <li><a href="STUDY.html">STUDY</a></li>
+          <li><a href="SEMINAR.html">SEMINAR</a></li>
+          <li><a href="FESTIVAL.html">FESTIVAL</a></li>
+        </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+  </nav>
+<h1>SEMINAR</h1>
+</section>
+
+<!--------seminar-------->
+<main id="seminar">
+  <section id="BQM&OQS">
+    <h1>Basic Quantum Mechanics & One Qubit System</h1><hr />
+    <article>
+        <h4><br>
+        Start with fundamental quantum mechanics and focus on the one-qubit system covered in quantum information theory.<br>
+        </h4>
+        <p>
+        1st: Basic Quantum Mechanics & Physical motivation for basic quantum 
+        information theory<br>
+        2nd: One qubit system, SU(2), ensembles and density matrix<br>
+        3rd: elementar y atomic & molecular physics(2 level system & one qubit)
+        </p>
+    </article>
+  </section>
+
+  <section id="Basic Physics">
+    <br><br>
+    <h1>Basic Physics for QUICK</h1><hr />
+    <article>
+      <h4><br>
+        A seminar to understand the physical principles contained in quantum information science, quantum hardware.<br>
+And the basic element of electromagnetism and quantum information science to learn basic theories
+studying quantum mechanics, physics.
+      </h4>
+      <p>
+        1st: Basic Analog Circuit Analysis<br>
+        2nd: Vector Calculus<br>
+        3rd: (Application of Vector Calculus 1) Electric Field and Electric Potential<br>
+        4th: (Application of Vector Calculus 2) Marnetic Field and Magnetic Potential<br>
+        5th: (Application of Vector Calculus 3) Electromagnetic Induction and Maxwell Equation<br>
+        6th: (Basic Quantum Mechanics) Modern Physics and the Birth of Quantum Mechanics<br>
+        7th: (Basic Quantum Mechanics) Formalism and Operator<br>
+        8th: (Basic Quantum Mechanics) Infinite Potential Wall<br>
+        9th: (Basic Quantum Mechanics) Delta Function<br>
+        10th: (Basic Quantum Mechanics) Simple Harmonic Oscillation<br>
+        11th: (Basic Quantum Mechanics) Introduction of Quantum Hardware
+      </p>
+    </article>
+  </section>
+</main>
+
+</main>
+
+
+
+
+
+
+
+
+<!-----------JavaScript for Toggle Menu----------------->
+<script>
+
+  var navLinks = document.getElementById("navLinks");
+
+  function showMenu(){
+    navLinks.style.right = "0";
+  }
+  function hideMenu(){
+    navLinks.style.right = "-200px";
+  }
+
+</script>
+
+</body>
+</html>

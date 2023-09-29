@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Source+Serif+4:opsz@8..60&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <title>QUICK WEBSITE</title>
+</head>
+<body>
+<section class="sub1-header">
+  <nav>
+    <a href="index.html"><img src="images/3-removebg-preview.png"></a>
+    <div class="nav-links" id="navLinks">
+      <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="MEMBERS.html">MEMBERS</a></li>
+          <li><a href="STUDY.html">STUDY</a></li>
+          <li><a href="SEMINAR.html">SEMINAR</a></li>
+          <li><a href="FESTIVAL.html">FESTIVAL</a></li>
+        </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+  </nav>
+<h1>STUDY</h1>
+</section>
+
+<!--------study-------->
+<section id="study">
+  <h1>Basic Quantum Information Theory</h1><hr />
+  <article>
+    <h4>
+      <br>
+      The study covers the basic contents of quantum information science, in line with the purpose of the quantum information science academic club.
+      <br>We start with what Qubit is, and approach it from a mathematical/physical point of view how we treat it theoretically. 
+      <br>This study utilizes lecture materials made by the club itself. 
+      <br>There are a total of seven lectures, and after taking the lecture, you will solve the quiz you developed yourself.
+      <br>
+      <br>
+    </h4>
+    <p>
+      1st: Linear Algebra<br>
+      2nd: The axioms of quantum mechanics<br>
+      3rd: Digital systems & Time complexity<br>
+      4th: Qubit, Bloch Sphere, Tensor product<br>
+      5th: Quantum Algorithm<br>
+      6th: Quantum Key Distribution<br>
+      7th: Density Matrix
+    </p>
+  </article>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<!-----------JavaScript for Toggle Menu----------------->
+<script>
+
+  var navLinks = document.getElementById("navLinks");
+
+  function showMenu(){
+    navLinks.style.right = "0";
+  }
+  function hideMenu(){
+    navLinks.style.right = "-200px";
+  }
+
+</script>
+
+</body>
+</html>
