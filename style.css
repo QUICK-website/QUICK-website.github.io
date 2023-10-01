@@ -88,7 +88,7 @@ nav .fa{
 }
 
 
-@media(max-width: 767px){
+@media(max-width: 639px){
     .text-box h1{
         font-size: 20px;
     }
@@ -334,7 +334,7 @@ color:#fff3f3;
     margin: auto;
 }
 #fall_fest img{
-    width:767px;
+    width: 639px;
 }
 #summarized-timetable{
     text-align: center;
