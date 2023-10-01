@@ -78,8 +78,8 @@ nav img{
     cursor: pointer;
 }
 .hero-btn:hover{
-    border: 1px solid burlywood;
-    background: burlywood;
+    border: 1px solid brown;
+    background: brown;
     transition: 1s;
 }
 
@@ -317,12 +317,75 @@ color:#fff3f3;
 .sub3-header h1{
     margin-top: 50px;
 }
+#fall_fest h1{
+    text-align: center;
+}
+#fall_fest hr{
+    text-align: center;
+}
 #fall_fest{
     width: 80%;
     text-align: center;
     margin: auto;
     padding-top: 100px;
 }
-#fall_fest img{
-    width: 1000px;
+#fall_fest p{
+    text-align: center;
+    margin: auto;
 }
+#fall_fest img{
+    width:800px;
+}
+#summarized-timetable{
+    text-align: center;
+}
+
+#qiskit-fall-fest-2023ku img{
+    width: 35px;
+}
+
+.outside {
+    list-style-position: outside;
+    list-style-type: square;
+  }
+.a {
+    list-style-position: inside;
+    list-style-type: circle;
+}
+
+#fall_fest1 {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    padding-top: 100px;
+}
+#fall_fest1 h2{
+    text-align: center;
+}
+#fall_fest1 hr{
+    text-align: center;
+}
+#fall_fest1 ul{
+    width: 70%;
+    text-align: left;
+    margin: auto;
+}
+#fall_fest1 li{
+    width: 70%;
+    text-align: left;
+    margin: auto;
+}
+#fall_fest1 p{
+    text-align: left;
+    margin: auto;
+}
+
+table {
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+table, td, th {
+    border-collapse : collapse;
+    border : 0.5px solid black;
+};
