@@ -108,7 +108,7 @@ nav .fa{
     }
     nav .fa{
         display: block;
-        color: black;
+        color: white;
         margin: 10px;
         font-size: 22px;
         cursor: pointer;
@@ -334,7 +334,7 @@ color:#fff3f3;
     margin: auto;
 }
 #fall_fest img{
-    width: 370px;
+    width: 300px;
 }
 #summarized-timetable{
     text-align: center;
