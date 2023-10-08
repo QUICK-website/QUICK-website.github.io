@@ -225,6 +225,9 @@ h3{
     padding-top: 100px;
     text-align: left;
 }
+.members h3{
+    text-align: left;
+}
 .members-col{
           flex-basis: 44%;
           border-radius: 10px;
